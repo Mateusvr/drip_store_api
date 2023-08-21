@@ -6,7 +6,7 @@ const PASS = process.env.DB_PASS
 
 console.log(USER, PASS)
 
-export default mongoose.connect(`mongodb+srv://${USER}:${PASS}@cluster0.dpqf3re.mongodb.net/?retryWrites=true&w=majority`)
+export default mongoose.connect(`mongodb+srv://${USER}:${PASS}@cluster0.dpqf3re.mongodb.net/dripstore?retryWrites=true&w=majority`)
 
 .then(() => console.log('BD CONECTADO COM SUCESSO'))
 

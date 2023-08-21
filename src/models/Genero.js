@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const Genero = mongoose.model('Produto', {
+const Genero = mongoose.model('Genero', {
     nome:String,
     codigo: Number,
 })
